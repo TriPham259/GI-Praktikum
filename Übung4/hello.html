@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+	<meta charset="utf-8">
+	<link href="hello.css" type="text/css" rel="stylesheet">
+</head>
+</head>
+<body>
+	<h2>Kontaktdaten:</h2>
+	<table>
+		<tr>
+			<td> <img src="bild.jpg" width="110" height="133"> </td>
+			<td>
+				<table>
+					<tr> <td width="100">Name: </td> <td>Tri Pham</td> </tr>
+					<tr> <td>Maritkel Nr.: </td> <td>2334778</td> </tr>
+					<tr> <td>Studiengang: </td> <td>Angewandte Informatik</td> </tr>
+					<tr> <td>E-Mail: </td> <td>phamtri96@gmail.com</td> </tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+	<h2>Kontaktformular:</h2>
+		<form name="Kontakt" action="email.php" method="post">
+			<table>
+				<tr> <td> Betreff: </td> <td><input type="text" name="Betreff" value="Subject"> </td>
+				</tr>
+				<tr> <td>Nachricht:</td> <td><input type="text" name="Nachricht" size="50" value="Hello"> </td>
+				</tr>
+			</table>
+			<input type="submit" value="Nachricht senden">
+		</form>
+
+</body>
+</html>
