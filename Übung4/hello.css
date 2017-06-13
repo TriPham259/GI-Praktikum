@@ -1,0 +1,19 @@
+body {
+	background: #fff;
+	font-family: 'Helvetica Neue', sans-serif;
+	line-height: 1;
+	color: #fff;
+	font-size: 25px;
+	background: url('https://res.cloudinary.com/themesholic/image/upload/v1420905671/bg_gjcb7t.png') center;
+	.background-size(cover);
+}
+
+h2 {
+	font-family: verdana;
+	color
+}
+
+table { 	
+	border: 0px solid black; 
+	padding: 2px; 
+	border-spacing: 20px; }
