@@ -1,0 +1,101 @@
+(aci479@harry)~>chmod a+x pf
+(aci479@harry)~>./pf deamon
+aci479   20310 20308  0 12:52 pts/1    00:00:00 grep deamon
+(aci479@harry)~>PATH =$PATH
+PATH: Befehl nicht gefunden.
+(aci479@harry)~>PATH = $PATH
+PATH: Befehl nicht gefunden.
+(aci479@harry)~>PATH  = $PATH  
+PATH: Befehl nicht gefunden.
+(aci479@harry)~>PATH=$PATH
+(aci479@harry)~>clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(aci479@harry)~>chmod a+x pf
+(aci479@harry)~>./pf demaon
+aci479   20322 20320  0 12:53 pts/1    00:00:00 grep demaon
+(aci479@harry)~>PATH=$PATH
+(aci479@harry)~>./pf pf
+root        46     2  0 12:05 ?        00:00:00 [kdevtmpfs]
+aci479   20325 20323  0 12:53 pts/1    00:00:00 grep pf
+(aci479@harry)~>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
