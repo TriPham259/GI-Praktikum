@@ -16,6 +16,11 @@
 		echo "<p>Ihre Nachricht ist gesendet, vielen Dank!</p>";
 	?>
 
-<!--<p>Ihre Nachricht ist gesendet</p>-->
+<!--
+Sidenote:
+ - create the file ./nachricht.csv
+ - make the cmd "chmod o+r nachricht.csv", so that clients can only read and not edit our nachricht.csv
+-->
 </body>
 </html>
+
