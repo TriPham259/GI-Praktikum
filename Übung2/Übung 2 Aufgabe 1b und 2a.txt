@@ -1,0 +1,33 @@
+Übung 2 Aufgabe 1b
+
+* Was enthalten die folgenden Shell-Variablen ?
+
+HOME : Enthält das Homeverzeichnis des Benutzers
+UID : Enthält die nummerische ID des Benutzers
+USER : Enthält den Benutzernamen
+PATH : Enthält den Suchpfad der Kommandos
+
+* Was bewirkt der Befehl „cd~“ ? Gibt es eine einfachere Alternative ?
+
+cd~ : Das aktuelle Verzeichnis wird auf HOME gewechselt. Eine Alternative wäre cd ohne ~
+
+* Was für eine Funktion haben die folgenden Tastatur – Eingaben ?
+
+	TAB : Nach Eingabe eines Buchstabens, werden mögliche Befehle ergänzt
+	 ?: Geht die Befehle nach oben durch
+	 ?: Geht die Befehle nach unten durch
+
+* Worin unterscheidet sich die Verwendung der Datei .profile von derjenigen der Datei .bashrc im Verzeichnis $HOME ?
+
+Der Unterschied liegt darin, dass die bashrc bei jedem Starten einer interaktiven Shell wie einem Terminal ausgeführt wird und die .profile ausschließlich beim Starten einer Login-Shell.
+
+
+Aufgabe 2)
+
+a) Datei:
+#Erstellt eine detaillierte Ausgabe aller Prozesse und sucht in allen Dateien nach dem Argument
+
+ps -ef  | grep $1
+
+In der Konsole : bash pf [String]
+
